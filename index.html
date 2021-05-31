@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+body {background-color: black;}
+h1 {
+  margin-top:-0px;
+  margin-left:-10px;
+  margin-right:-10px;
+  color: white;
+  font-family: verdana;
+  font-size: 300%;
+  background-color:red;
+}
+h2{
+     position: relative;
+    top: -20px;
+    font-size: 150%;
+}
+.first {
+  color: white;
+  padding: 8px;
+  font-size:130%;
+  margin-top:10px;
+  
+}
+.second
+{
+color:black;
+padding:4px;
+font-size:100%;
+height:30px;
+width:170px;
+border-radius:10px;
+}
+
+.third
+{
+height:30px;
+width:170px;
+border-radius:10px;
+font-size:100%;
+text-align: center;
+}
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+<h1>Welcome To Music Store</h1>
+<form action="servlet1" method="get">
+<div class='first'>
+<h2>Store new CD's to Inventory</h2>
+
+CD-ID <input class='second' type="text" name="cd id"></input>
+CD-Name <input class='second'type="text" name="cd name"></input>
+CD-Quantity <input class='second'type="text" name="cd quant"></input>
+CD-Price <input  class='second'type="text" name="cd price"></input>
+<br><br>
+<input class='third' type="submit" value="Store" name="action"></input>
+<br>
+<hr style="height:2px;border-width:0;background-color:red">
+
+</div>
+<div class='first'>
+<h2>Purchase CD</h2>
+<input class='third' type="submit" value="ShowInventory" name="action"></input>
+<br>
+<br>
+Search CD-id <input class='second' type="text" name="sid"></input>
+</div>
+
+<div class='first'>
+<input  class='third'type="submit" value="Purchase" name="action"></input>
+</div>
+
+<hr style="height:2px;border-width:0;background-color:red">
+
+<div class='first'>
+<input  style= "position: relative;
+       top: 10px;
+       left:690px;
+    "class='third' type="submit" value="Exit Application" name="action"></input>
+</div>
+
+</form>
+</body>
