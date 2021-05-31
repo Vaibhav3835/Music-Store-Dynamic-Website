@@ -5,5 +5,6 @@ This website have numerous Feature like:
 1. Any Shop owner can integrate details of CD's like designation, id, price, quantity etc.
 2. Customer can check the availability of CD and can purchase the CD's according to his interset.
 3. Bill will be engendered according to no of cd's purchased by any customer.
-**Note
-This website has been hosted on a local computer until now. I'm currently on Amazon Web Services to host this dynamic java web application so it may accessed from any browser.
+
+## Note
+### This website has been hosted on a local computer until now. I'm currently on Amazon Web Services to host this dynamic java web application so it may accessed from any browser.
